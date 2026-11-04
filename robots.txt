@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://arbo-studio-curitiba.vercel.app/sitemap.xml
+Sitemap: https://arbo-studio-curitiba-proposal.vercel.app/sitemap.xml
