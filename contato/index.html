@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contato — ARBO Studio Curitiba</title>
+<meta name="description" content="Fale com a ARBO Studio, Curitiba: WhatsApp do atelier, Instagram @ar.bostudio e endereço na Av. Vicente Machado, 1096. Proposta conceitual — canais a confirmar.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Archivo:wght@400;500;600;700&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body data-page="contato">
+<a class="skip" href="#main">Pular para o conteúdo</a>
+<div class="grain" aria-hidden="true"></div>
+
+<div class="ticker" aria-hidden="true"><div class="ticker__inner js-loop"><span>PROPOSTA TIYAN DIGITAL · DEMO CONCEITUAL · PREÇOS E HORÁRIOS A CONFIRMAR ·&nbsp;</span></div></div>
+
+<header class="site-header">
+  <div class="site-header__row">
+    <a class="wordmark" href="/" aria-label="ARBO Studio — início">
+      <span class="wordmark__name" data-business>ARBO Studio</span>
+      <span class="wordmark__sub">STUDIO · CURITIBA</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">MENU</button>
+    <nav class="nav" id="siteNav" aria-label="Navegação principal">
+      <a data-nav="home" href="/">Início</a>
+      <a data-nav="servicos" href="/servicos/">Serviços</a>
+      <a data-nav="galeria" href="/galeria/">Galeria</a>
+      <a data-nav="agendamento" href="/agendamento/">Agendamento</a>
+      <a data-nav="sobre" href="/sobre/">Sobre</a>
+      <a data-nav="contato" href="/contato/">Contato</a>
+      <a class="btn btn--primary header-cta" data-nav="agendar" href="/agendamento/">Agendar Horário</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section>
+    <div class="wrap">
+      <span class="label label--clay rv">Onde estamos &amp; como falar conosco</span>
+      <h1 class="rv rv--d1" style="margin:22px 0 26px">Venha nos visitar no coração da <em>Vicente Machado</em>.</h1>
+
+      <div class="contact-grid">
+        <div>
+          <span class="sec-kicker rv">Canais diretos</span>
+          <h2 class="rv rv--d1" style="font-size:clamp(28px,4vw,48px);margin-bottom:28px">Escolha seu ponto de contato</h2>
+
+          <div class="channel rv">
+            <span class="label label--clay">WhatsApp · Atelier</span>
+            <h3>Conversa direta com o studio</h3>
+            <p>Número publicado em matéria (CuritibaCult). Agendamentos, dúvidas e orçamentos.</p>
+            <a class="btn btn--primary" data-wa href="https://wa.me/5541991461096" style="font-size:19px">Iniciar Conversa →</a>
+            <p class="disclaimer" style="margin:14px 0 0">Número publicado · <span data-wa-label>(41) 99146-1096</span> · a confirmar no atendimento</p>
+          </div>
+
+          <div class="channel rv rv--d1">
+            <span class="label label--clay">Instagram · Oficial</span>
+            <h3>@ar.bostudio</h3>
+            <p>O dia a dia do atelier, bastidores e novidades do lookbook. DMs abertas de terça a sábado.</p>
+            <a class="btn btn--ghost" href="https://www.instagram.com/ar.bostudio" target="_blank" rel="noopener">Seguir @ar.bostudio ↗</a>
+          </div>
+
+          <div class="addr-block rv rv--d2">
+            <span class="label label--clay">Localização</span>
+            <address>Av. Vicente Machado, 1096 · Centro<br>Curitiba — Paraná</address>
+            <table class="hours-table">
+              <thead><tr><th scope="col">Dia</th><th scope="col" style="text-align:right">Horário (a confirmar)</th></tr></thead>
+              <tbody>
+                <tr><td>Terça a Sexta</td><td>09h às 19h</td></tr>
+                <tr><td>Sábado</td><td>09h às 18h</td></tr>
+                <tr><td>Domingo e Segunda</td><td>Fechado</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div>
+          <span class="sec-kicker rv">Mensagem direta</span>
+          <h2 class="rv rv--d1" style="font-size:clamp(28px,4vw,48px);margin-bottom:28px">Envie sua solicitação <em>editorial</em></h2>
+          <form id="contactForm" novalidate class="rv rv--d2">
+            <div class="field">
+              <label for="fName">NOME COMPLETO</label>
+              <input type="text" id="fName" name="nome" autocomplete="name" placeholder="Seu nome">
+              <p class="err">Informe seu nome.</p>
+            </div>
+            <div class="field">
+              <label for="fPhone">WHATSAPP OU TELEFONE</label>
+              <input type="tel" id="fPhone" name="telefone" autocomplete="tel" placeholder="(41) 9 9999-9999">
+              <p class="err">Informe um número válido.</p>
+            </div>
+            <div class="field">
+              <label for="fSubject">ASSUNTO</label>
+              <select id="fSubject" name="assunto">
+                <option>Agendamento de ritual</option>
+                <option>Dúvida sobre serviços</option>
+                <option>Orçamento de nail art</option>
+                <option>Parcerias</option>
+                <option>Outro assunto</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="fMsg">SUA MENSAGEM</label>
+              <textarea id="fMsg" name="mensagem" rows="5" placeholder="Conte o que você procura…"></textarea>
+              <p class="err">Escreva ao menos uma frase (10 caracteres).</p>
+            </div>
+            <button class="btn btn--primary" type="submit" style="font-size:19px">Enviar Mensagem →</button>
+            <p class="disclaimer">Demonstração — nenhum dado é enviado ou armazenado.</p>
+          </form>
+          <div class="form-ok" id="contactOk" role="status">
+            <h3>Mensagem registrada ✓</h3>
+            <p>Obrigado pelo contato! Em uma versão conectada, sua mensagem chegaria direto ao atelier. Para agendar agora, use o WhatsApp acima.</p>
+            <p style="margin-top:20px"><a class="btn btn--ink" data-wa href="https://wa.me/5541991461096" style="font-size:19px">Chamar no WhatsApp →</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq rv">
+        <span class="sec-kicker">Perguntas frequentes</span>
+        <details>
+          <summary><span><span class="label label--clay">01 ·</span> Tempo &amp; tolerância</span><span class="plus">+</span></summary>
+          <p>Pedimos pontualidade para honrar cada ritual. Atrasos de até 15 minutos são acomodados; acima disso, o atendimento pode ser remarcado.</p>
+        </details>
+        <details>
+          <summary><span><span class="label label--clay">02 ·</span> Reserva antecipada</span><span class="plus">+</span></summary>
+          <p>Recomendamos reservar com alguns dias de antecedência, especialmente para alongamentos e nail art editorial.</p>
+        </details>
+        <details>
+          <summary><span><span class="label label--clay">03 ·</span> Formas de pagamento</span><span class="plus">+</span></summary>
+          <p>As formas aceitas são confirmadas no atendimento. Faixa de valores dos serviços: R$ 60 a R$ 1.280 (matéria publicada).</p>
+        </details>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="wordmark" href="/"><span class="wordmark__name" data-business>ARBO Studio</span><span class="wordmark__sub">STUDIO · CURITIBA</span></a>
+        <p>Estúdio de design de unhas, estética botânica e cuidado sensorial refinado.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Instagram</h4>
+        <a href="https://www.instagram.com/ar.bostudio" target="_blank" rel="noopener">@ar.bostudio</a>
+      </div>
+      <div class="footer-col">
+        <h4>Localização &amp; Horários</h4>
+        <ul>
+          <li>Av. Vicente Machado, 1096</li>
+          <li>Centro · Curitiba - PR</li>
+          <li>Terça a Sexta: 09h às 19h (A CONFIRMAR)</li>
+          <li>Sábado: 09h às 18h (A CONFIRMAR)</li>
+          <li>Domingo e Segunda: Fechado</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Navegação</h4>
+        <a href="/">Início</a>
+        <a href="/servicos/">Serviços</a>
+        <a href="/galeria/">Galeria</a>
+        <a href="/agendamento/">Agendamento</a>
+        <a href="/sobre/">Sobre</a>
+        <a href="/contato/">Contato</a>
+      </div>
+    </div>
+    <div class="footer-legal">
+      <span>DEMO CONCEITUAL desenvolvida por Tiyan Digital. Todos os valores (faixa R$ 60 a R$ 1.280) e horários a confirmar.</span>
+      <span>© 2026 <span data-business>ARBO Studio</span> · Proposta Criativa por Tiyan Digital</span>
+      <span>CURITIBA, PARANÁ · BRASIL</span>
+    </div>
+  </div>
+</footer>
+<script src="/assets/site.js" defer></script>
+</body>
+</html>
